@@ -1,22 +1,36 @@
-body { background-color: aquamarine;
+body { background-color: black;
 }
 
 h1 {
-  font-family: 'Sofia';
-  font-size: 65px;
-  text-align: left;
+  font-family: 'Aladin', cursive;
   text-align: center;
-  color: darkcyan;
+  font-size: 50px;
+  color: maroon;
+  background-color: white;
+  border-radius:10px;
+}
+
+h2 {
+  font-family: 'Acme', sans-serif;
+  color: white;
+  text-align: center;
 }
 
 img {
   float: right;
   overflow:auto;
+  border-radius: 10px;
+  border:10px solid white;
 }
 
 nav {
   float:none;
-  padding-top:25px;
+  padding-top:15px;
+  color: white;
+}
+
+a {
+  color: white;
 }
 
 ul {
@@ -24,38 +38,41 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: aquamarine;
 }
 
 li {
     float: left;
-    border: 1px solid white;
     border-radius: 10px;
     background-repeat: repeat;
+    font-family: 'Aladin', cursive;
 }
 
 li a {
     display: block;
-    color: darkcyan;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover:not(.active) {
-    background-color: lightgreen;
+    background-color: grey;
     border-radius: 10px;
    
 }
 
 .active {
-  color: lightgreen;
+  color: grey;
   border-radius: 10px;
 }
 
 section {
-  background-color: lightgreen;
-  padding-bottom: 100px
+  display: contents;
+  background-color: maroon;
+  padding-bottom: 100px;
+  color: white;
+  border:10px solid grey;
+  font-family: 'Acme', sans-serif;
 }
 
 p {
@@ -66,12 +83,12 @@ p {
 }
 
 #para2 {
-  color: darkcyan;
+  color: white;
   padding-top: 10px;
 }
 
 #para3 {
-  color: darkcyan;
+  color: white;
   padding-top: 10px;
 }
 
