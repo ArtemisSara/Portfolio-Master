@@ -1,46 +1,121 @@
-body {
-  background: aqua;
-}
-h1 {
-  font-family: cursive
-}
-img {
-  border: 5px solid pink;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-}
-figcaption {
-  text-align: center;
-  margin-top: 4px;
-  font-size: 12px;
-}
-a:hover {
-  text-decoration: overline;
-}
-article{
-  text-align: left;
+body { background-color: black;
 }
 
 h1 {
+  font-family: 'Aladin', cursive;
   text-align: center;
+  font-size: 50px;
+  color: maroon;
+  background-color: white;
+  border-radius:10px;
 }
 
 h2 {
+  font-family: 'Acme', sans-serif;
+  color: white;
   text-align: center;
 }
 
-body{
-  border: 5px dotted gold;
-  padding: 10px;
+#img1 {
+  float: right;
+  overflow:auto;
+  border-radius: 10px;
+  border:10px solid white;
 }
 
-footer{ 
-  padding: 10px;
-  text-align: center;
-  line-height: normal;
+img {
+  float:left;
+  border: 5px solid grey;
+  
+}
+#para1 {
+  font-family: 'Acme', sans-serif;
+  color: white;
+  border-top: 10px solid grey;
+  
 }
 nav {
-  padding: 15px;
+  float:none;
+  padding-top:15px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-radius: 10px;
+    background-repeat: repeat;
+    font-family: 'Aladin', cursive;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: grey;
+    border-radius: 10px;
+   
+}
+
+.active {
+  color: grey;
+  border-radius: 10px;
+}
+
+section {
+  display: contents;
+  background-color: maroon;
+  padding-bottom: 100px;
+  color: white;
+  border:10px solid grey;
+  font-family: 'Acme', sans-serif;
+}
+
+p {
+  margin:auto;
+  margin-left: auto;
+  padding-top: 25px;
+  padding-left: 10px;
+}
+
+#para2 {
+  color: white;
+  padding-top: 10px;
+}
+
+#para3 {
+  color: white;
+  padding-top: 10px;
+}
+
+i {
+  padding-top: 5px;
+  
+}
+ .fa:hover {
+  color: maroon;
+}
+footer {
+  text-align: center;  
+}
+
+i {
+  color:deepskyblue;
   text-align: center;
+  
 }
