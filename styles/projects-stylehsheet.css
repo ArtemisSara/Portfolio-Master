@@ -8,6 +8,7 @@ h1 {
   color: maroon;
   background-color: white;
   border-radius:10px;
+  float: none;
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
   color: white;
   text-align: center;
   text-align: left;
+  padding-left: 10px;
 }
 
 #img1 {
@@ -27,12 +29,13 @@ h2 {
 a{
   color: white;
   text-align: center;
-  
 }
+
 
 img {
   float:left;
   border: 5px solid grey;
+  
   
 }
 #para1 {
@@ -96,20 +99,21 @@ p {
 
 #para2 {
   color: white;
-  padding-top: 10px;
-  padding: 50px;
+  padding-top: 15px;
+  padding-bottom:50px;
 }
 
 #para3 {
   color: white;
-  padding: 50px;
+  padding-top: 15px;
+  padding-bottom: 50px;
   text-align: inherit;
 }
 
 #para4 {
   color: white;
-  padding-top: 10px;
-  padding: 50px;
+  padding-top: 15px;
+  padding-bottom: 50px;
 }
 
 #para5 {
