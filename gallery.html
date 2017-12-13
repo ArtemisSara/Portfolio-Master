@@ -4,59 +4,46 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
     <title>Artemis Studios</title>
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
       <link rel="Home" href="index.html">
-
+    
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     
       <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
-  
+    
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+    
       <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
-  
+    
       <link href="https://fonts.googleapis.com/css?family=Aladin" rel="stylesheet">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
   </head>
+  
 <body>
+  
    <!-- Logo, title of site, main navigation -->
   <header>  
-    
-    <img src="images/Alien+vs+Alien+Tea+Time.jpg" height="242" alt="Alien Tea Time">
-    
     <h1><b>Artemis Studios</b></h1>
-    <h2>S.Parrett Illustrations</h2>
     
     <ul>
-      <li><a href="index.html" target="index.html">Home</a></li>
-      <li><a href="projects.html" target="projects.html">Projects</a></li>
-      <li><a href="gallery.html" target="gallery.html">Gallery</a></li>
+      <li><a href="index.html" target="_self">Home</a></li>
+      <li><a href="projects.html" target="_self">Projects</a></li>
+      <li><a href="gallery.html" target="_self">Gallery</a></li>
     </ul>
-       
   </header>
+  
+<!-- Gallery formatting using bootstrap -->
     <div class="container-fluid">
       <h1>Gallery</h1>
       <p class="page-desc">This gallery includes some of my favorite illustrations</p>
-    </div>
- <!-- temporarily editing this out
-    <div class="row">
-      <div class="col-md-6"></div>
-      <div class="col-md-6"></div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4"></div>
-      <div class="col-lg-4"></div>
-    </div>
-  -->
+  </div>
+  
   <style>
     .page-desc {
       color: white;
@@ -64,31 +51,47 @@
     }
     
     p {
-      color: white;
+      color: black;
       font-size: 14px;
     }
-    }
   </style>
-  <div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-      <p>Alien Worlds</p>
-      <img src="images/Alien+vs+Alien+Tea+Time.jpg" class="img-responsive" style="width:100%" alt="Image">
+  
+<div class="container"></div>
+  
+  <h2>Gallery</h2>
+    <div class="row"></div>
+      <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="images/Alien+vs+Alien+Tea+Time.jpg" target="_blank">
+          <img src="images/Alien+vs+Alien+Tea+Time.jpg" alt="Aliens" style="width:100%">
+          <div class="caption">
+            <p>They'd be friends, I'm sure of it.</p>
+          </div>
+        </a>
+      </div>
     </div>
-    <div class="col-sm-3"> 
-      <p>Bewitching</p>
-      <img src="images/Artemis+Ar1.png" class="img-responsive" style="width:100%" alt="Image">
+  
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="images/Artemis+Ar1.png" target="_blank">
+          <img src="images/Artemis+Ar1.png" alt="Goddess Artemis" style="width:100%">
+          <div class="caption">
+            <p>Ode to Artemis, goddess of the hunt.</p>
+          </div>
+        </a>
+      </div>
     </div>
-    <div class="col-sm-3"> 
-      <p>Solarpunk World</p>
-      <img src="images/mechanicsolar%20punk.png" class="img-responsive" style="width:100%" alt="Image">
+  
+    <div class="col-md-4">
+      <div class="thumbnail">
+        <a href="images/Janie's+Got+a+Blaster.png" target="_blank">
+          <img src="images/Janie's+Got+a+Blaster.png" alt="Steampunk Pirate" style="width:100%">
+          <div class="caption">
+            <p>Steampunk space pirate. Pew pew.</p>
+          </div>
+        </a>
+      </div>
     </div>
-    <div class="col-sm-3">
-      <p>Some text..</p>
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div><br>
   
   </body>
 </html>
